@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TouringCar--ranking--NET EVENT check</title>
+</head>
+<body bgcolor="#000000" text="#fdd400" link="#fdd400" vlink="#666666" alink="#ff0000">
+<center>
+このページをブックマークするとランキングチェックの際に便利です。
+<br><br>
+<img src="../jpg4/event3.jpg" alt="Global Net Event 3rd"><br><br>
+<font size=+1><b>今回の受け付けは終了いたしました。<br>
+参戦ありがとうございました！</b></font><br>
+<br>
+<font size=+2>検索条件を指定してください</font><br>
+（空欄のまま送信すれば総合順位が表示されます）<br>
+
+<FORM METHOD="GET" ACTION="/cgi-bin/stcc_rank.cgi">
+
+<table border=0 width=500>
+<tr align=left>
+<th align=right>
+機　種　</th>
+<td colspan=2>
+<INPUT TYPE="radio" NAME="ver" VALUE="SS" checked>セガサターン　
+<INPUT TYPE="radio" NAME="ver" VALUE="PC">ＰＣ　
+<INPUT TYPE="radio" NAME="ver" VALUE="">セガサターン＋ＰＣ　　
+</td>
+</tr>
+
+<tr align=left>
+<th align=right nowrap>
+電子メールアドレス　</th>
+<td colspan=2><INPUT TYPE="text" NAME="email" SIZE="40"></td>
+</tr>
+
+<tr align=left>
+<th align=right nowrap>
+ドライバーズネーム　</th>
+<td colspan=2>
+<INPUT TYPE="text" NAME="name" SIZE="8" MAXLENGTH="7">　（最大半角で７字まで）
+</td></tr>
+
+<tr align=left>
+<th align=right>
+車　種　</th>
+<td colspan=2>
+<INPUT TYPE="radio" NAME="car" VALUE="0">アルファロメオ　
+<INPUT TYPE="radio" NAME="car" VALUE="1">メルセデス　
+<INPUT TYPE="radio" NAME="car" VALUE="2">オペル　
+<INPUT TYPE="radio" NAME="car" VALUE="3">トヨタ　
+</td>
+</tr>
+
+<tr align=left>
+<th align=right>
+ミッション　</th>
+<td colspan=2>
+<INPUT TYPE="radio" NAME="miss" VALUE="0">AT　
+<INPUT TYPE="radio" NAME="miss" VALUE="1">MT
+</td>
+</tr>
+
+<tr align=left>
+<th align=right>
+国　籍　</th>
+<td colspan=2>
+<SELECT NAME="nation">
+<OPTION SELECTED value="">　
+<OPTION VALUE="0">日本
+<OPTION VALUE="1">アメリカ
+<OPTION VALUE="2">アルゼンチン
+<OPTION VALUE="3">アラブ首長国連邦
+<OPTION VALUE="4">イギリス
+<OPTION VALUE="5">イスラエル
+<OPTION VALUE="6">イタリア
+<OPTION VALUE="7">インドネシア
+<OPTION VALUE="8">インド
+<OPTION VALUE="9">オーストリア
+<OPTION VALUE="10">オランダ
+<OPTION VALUE="11">オーストラリア
+<OPTION VALUE="12">カナダ
+<OPTION VALUE="13">韓国
+<OPTION VALUE="14">ギリシャ
+<OPTION VALUE="15">サウジアラビア
+<OPTION VALUE="16">シンガポール
+<OPTION VALUE="17">スイス
+<OPTION VALUE="18">スウェーデン
+<OPTION VALUE="19">スペイン
+<OPTION VALUE="20">スロベニア
+<OPTION VALUE="21">タイ
+<OPTION VALUE="22">台湾
+<OPTION VALUE="23">中国
+<OPTION VALUE="24">デンマーク
+<OPTION VALUE="25">ドイツ
+<OPTION VALUE="26">トルコ
+<OPTION VALUE="27">ニュージーランド
+<OPTION VALUE="28">ノルウェイ
+<OPTION VALUE="29">ハンガリー
+<OPTION VALUE="30">フィリピン
+<OPTION VALUE="31">フィンランド
+<OPTION VALUE="32">ブラジル
+<OPTION VALUE="33">フランス
+<OPTION VALUE="34">ベルギー
+<OPTION VALUE="35">ポーランド
+<OPTION VALUE="36">ポルトガル
+<OPTION VALUE="37">香港
+<OPTION VALUE="38">マレーシア
+<OPTION VALUE="39">南アフリカ
+<OPTION VALUE="40">ミャンマー
+<OPTION VALUE="41">メキシコ
+<OPTION VALUE="42">リヒテンシュタイン
+<OPTION VALUE="43">ロシア
+<OPTION VALUE="44">レバノン
+<OPTION VALUE="45">その他
+</SELECT>
+</td>
+<tr>
+
+<INPUT TYPE="hidden" NAME="event" VALUE="3">
+
+</table>
+最大表示件数 <INPUT TYPE="text" NAME="max" SIZE="4" VALUE="50">
+<br><br>
+<INPUT TYPE="submit" value="送信">
+<INPUT TYPE="reset" value="リセット">
+</FORM>
+
+
+<hr>
+<br>
+
+
+<table width=460 border=0>
+<tr>
+<td align="center" width=50%>
+<a href="home.html"><img src="../jpg1/back.jpg" border=0></a>
+</td>
+<td align="center" width=50%>
+<a href="../home.html"><img src="../jpg1/home.jpg" border=0></a>
+</td>
+</tr>
+</table>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<META http-equiv="Content-Type" Content="text/html; charset=Shift_JIS">
+<html>
+<head>
+<title>TouringCar--Driver'sSalon</title>
+
+</head>
+
+
+
+<body bgcolor="#000000" text="#fdd400" link="#fdd400" vlink="#333333" alink="#ff0000">
+
+<center>
+<img src="../../jpg4/head.jpg" alt="driver">
+</center>
+<br><br>
+
+<center>
+<img src="../../jpg4/drivers-rank-title.jpg" alt="driver">
+</center>
+<br>
+
+
+<br>
+<center>
+<font size=+1>
+<b>あなたのタイムとその他の情報を記入して下さい。<br>
+タイムは本戦3つのトータルタイムでお願いします。<br>
+なお、認証作業の都合上、ドライバーズネームと本名は<br>
+<blink>毎回</blink>同じものにしてください。</b>
+</font></center>
+<br>
+
+<FORM METHOD="POST" ACTION="/cgi-bin/t3-ent.pl">
+<h1>上越・信越地区</h1>
+<br>
+<b>店舗　：</b>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="SWエデン">セガワールドエデン
+<OPTION value="SW上越">セガワールド上越
+<OPTION value="SW新発田">セガワールド新発田
+<OPTION value="SW武生">セガワールド武生
+<OPTION value="SW豊田">セガワールド豊田
+</SELECT><br>
+　その他の店舗　<INPUT TYPE="TEXT" NAME="etc_location" size=30 maxlength=30>　(半角英数または、全角の漢字･ひらがな･カタカナで最大３０字まで)<br>
+以下の店名は略語で記入してください<br>
+　　　ハイテクセガ…HS、ハイテクランド…HLS、セガワールド…SW、スポーツランド…SL<p>
+
+
+<B>ドライバーズネーム　：</B>
+　<INPUT TYPE="text" NAME="name" SIZE="32" MAXLENGTH="20">　（半角英数字で最大２０字まで）<br>
+<br>
+<table border=0 width=500>
+<tr>
+<td>
+<B>タイム</B></td><td>：</td>
+<td>
+　<INPUT TYPE="text" NAME="min" SIZE="2" MAXLENGTH="1">分　<INPUT TYPE="text" NAME="sec" SIZE="2" MAXLENGTH="2">秒　<INPUT TYPE="text" NAME="msec" SIZE="3" MAXLENGTH="3">　　　（半角数字で）</td>
+</tr>
+<tr>
+<td>
+<B>車種</B></td><td>：</td>
+<td>
+<INPUT TYPE="radio" NAME="car" VALUE="Alfaromeo" >アルファロメオ　
+<INPUT TYPE="radio" NAME="car" VALUE="Opel" >オペル　
+<INPUT TYPE="radio" NAME="car" VALUE="Mercedes"   >メルセデス　
+<INPUT TYPE="radio" NAME="car" VALUE="Toyota" >トヨタ　
+</td>
+</tr>
+<tr>
+<td>
+<B>ミッション</B></td><td>：</td>
+<td>
+<INPUT TYPE="radio" NAME="atmt" VALUE="AT" >AT
+<INPUT TYPE="radio" NAME="atmt" VALUE="MT" >MT
+</td>
+</tr>
+<tr>
+<td colspan=3>
+<hr>
+</td></tr>
+
+<tr>
+<td>
+<B>本名</B></td><td>：</td>
+<td>
+<INPUT TYPE="text" NAME="realname" SIZE="20">
+</td>
+</tr>
+<tr>
+<td>
+<B>E-Mail</B></td><td>：</td>
+<td><INPUT TYPE="text" NAME="email" SIZE="30">　（半角英数字で）</td>
+</tr>
+
+<tr>
+<td>
+<B>性別</B></td><td>：</td>
+<td>
+　<INPUT TYPE="radio" NAME="sex" VALUE="male" >男
+　<INPUT TYPE="radio" NAME="sex" VALUE="female">女</td>
+</tr>
+
+<tr>
+<td>
+<B>年代</B></td><td>：</td>
+<td>
+　<INPUT TYPE="radio" NAME="age" VALUE="0" >～15
+　<INPUT TYPE="radio" NAME="age" VALUE="1" >16～29
+　<INPUT TYPE="radio" NAME="age" VALUE="2" >30～</td>
+</tr>
+
+<tr>
+<td>
+<B>国籍</B></td><td>：</td>
+<td>
+<SELECT NAME="nation">
+<OPTION SELECTED VALUE="jpn">日本
+<OPTION VALUE="usa">アメリカ
+<OPTION VALUE="arg">アルゼンチン
+<OPTION VALUE="are">アラブ首長国連邦
+<OPTION VALUE="gbr">イギリス
+<OPTION VALUE="isr">イスラエル
+<OPTION VALUE="ita">イタリア
+<OPTION VALUE="idn">インドネシア
+<OPTION VALUE="ind">インド
+<OPTION VALUE="aut">オーストリア
+<OPTION VALUE="nld">オランダ
+<OPTION VALUE="aus">オーストラリア
+
+<OPTION VALUE="can">カナダ
+<OPTION VALUE="kor">韓国
+<OPTION VALUE="grc">ギリシャ
+
+<OPTION VALUE="sau">サウジアラビア
+<OPTION VALUE="sgp">シンガポール
+<OPTION VALUE="che">スイス
+<OPTION VALUE="swe">スウェーデン
+<OPTION VALUE="esp">スペイン
+<OPTION VALUE="svn">スロベニア
+
+<OPTION VALUE="tha">タイ
+<OPTION VALUE="twn">台湾
+<OPTION VALUE="chn">中国
+<OPTION VALUE="dnk">デンマーク
+<OPTION VALUE="deu">ドイツ
+<OPTION VALUE="tur">トルコ
+
+<OPTION VALUE="nzl">ニュージーランド
+<OPTION VALUE="nor">ノルウェイ
+
+<OPTION VALUE="hun">ハンガリー
+<OPTION VALUE="phl">フィリピン
+<OPTION VALUE="fin">フィンランド
+<OPTION VALUE="bra">ブラジル
+<OPTION VALUE="fra">フランス
+<OPTION VALUE="bel">ベルギー
+<OPTION VALUE="pol">ポーランド
+<OPTION VALUE="prt">ポルトガル
+<OPTION VALUE="hkg">香港
+
+<OPTION VALUE="mys">マレーシア
+<OPTION VALUE="zaf">南アフリカ
+<OPTION VALUE="mmr">ミャンマー
+<OPTION VALUE="mex">メキシコ
+
+<OPTION VALUE="lie">リヒテンシュタイン
+<OPTION VALUE="rus">ロシア
+<OPTION VALUE="lbn">レバノン
+<OPTION VALUE="oth">その他
+</SELECT></td>
+</tr>
+<tr>
+<td colspan=3>
+<hr>
+</td></tr>
+</table>
+
+<center>
+<font size=+2>
+<b>記入後、下の送信ボタンを押して下さい。<br>
+自動的にあなたの順位を検索します。</b>
+</font>
+</center>
+<br><br>
+
+
+
+<center>
+<table width=600 border=0>
+<tr>
+<td align="center">
+<INPUT TYPE="image" src="../../jpg4/mail-send.jpg" border=0>
+<a href="entry5.html"><img src="../../jpg4/mail-reset.jpg" border=0></a>
+</td>
+</tr>
+</table>
+</form>
+</center>
+
+<center>
+<table width=600 border=0>
+<tr>
+<td align="center" width=50%>
+<a href="entry-renew.html"><img src="../../jpg1/back.jpg" border=0></a>
+</td>
+<td align="center" width=50%>
+<a href="../../home.html"><img src="../../jpg1/home.jpg" border=0></a>
+</td>
+</tr>
+</table>
+</center>
+
+<br><br>
+</body>
+</html>
+
+
+

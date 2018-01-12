@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>TouringCar--ranking--NET EVENT check ENG</title>
+</head>
+<body bgcolor="#000000" text="#fdd400" link="#fdd400" vlink="#666666" alink="#ff0000">
+<center>
+If you frequently check the ranking, Please bookmark this page.
+<br><br>
+<img src="../jpg4/event2.jpg" alt="Global Net Event 2nd"><br><br>
+<font size=+1><b>We have closed the entry.<br>
+Thank you for participating in the competition!</b></font><br>
+<br>
+<font size=+2>Please set conditions for <b>OPTIONAL SEARCH！</b></font><br>
+<FORM METHOD="POST" ACTION="/cgi-bin/sstcsrchE.cgi">
+
+<table border=0 width=500>
+<tr align=left>
+<th align=right nowrap>
+E-Mail ADDRESS</th>
+<td colspan=2><INPUT TYPE="text" NAME="email" SIZE="40"></td>
+</tr>
+
+<tr align=left>
+<th align=right nowrap>
+REGISTRATION NAME</th>
+<td colspan=2>
+<INPUT TYPE="text" NAME="name" SIZE="8" MAXLENGTH="7">(7 CHARACTERS MAX)
+</td></tr>
+
+<tr align=left>
+<th align=right>
+CAR</th>
+<td colspan=2>
+<INPUT TYPE="radio" NAME="car" VALUE="0">ALFA ROMEO　
+<INPUT TYPE="radio" NAME="car" VALUE="1">MERCEDES　
+<INPUT TYPE="radio" NAME="car" VALUE="2">OPEL　
+<INPUT TYPE="radio" NAME="car" VALUE="3">TOYOTA　
+</td>
+</tr>
+
+<tr align=left>
+<th align=right>
+TRANSMISSION</th>
+<td colspan=2>
+<INPUT TYPE="radio" NAME="miss" VALUE="0">AT　
+<INPUT TYPE="radio" NAME="miss" VALUE="1">MT
+</td>
+</tr>
+
+<tr align=left>
+<th align=right>
+NATIONALITY</th>
+<td colspan=2>
+<SELECT NAME="nation">
+<OPTION SELECTED value="">　
+<OPTION VALUE="0">Japan
+<OPTION VALUE="1">U.S.A.
+<OPTION VALUE="2">Argentina
+<OPTION VALUE="3">U.A.E.
+<OPTION VALUE="4">England
+<OPTION VALUE="5">Israel
+<OPTION VALUE="6">Italy
+<OPTION VALUE="7">Indonesia
+<OPTION VALUE="8">India
+<OPTION VALUE="9">Austria
+<OPTION VALUE="10">Netherland
+<OPTION VALUE="11">Australia
+<OPTION VALUE="12">Canada
+<OPTION VALUE="13">R.O.K.
+<OPTION VALUE="14">Greece
+<OPTION VALUE="15">Saudi Arabia
+<OPTION VALUE="16">Singapore
+<OPTION VALUE="17">Switzerland
+<OPTION VALUE="18">Sweden
+<OPTION VALUE="19">Spain
+<OPTION VALUE="20">Slovenia
+<OPTION VALUE="21">Thai
+<OPTION VALUE="22">Taiwan
+<OPTION VALUE="23">China
+<OPTION VALUE="24">Denmark
+<OPTION VALUE="25">Germany
+<OPTION VALUE="26">Turkey
+<OPTION VALUE="27">New Zealand
+<OPTION VALUE="28">Norway
+<OPTION VALUE="29">Hungary
+<OPTION VALUE="30">Philippine
+<OPTION VALUE="31">Finland
+<OPTION VALUE="32">Brazil
+<OPTION VALUE="33">France
+<OPTION VALUE="34">Belgium
+<OPTION VALUE="35">Poland
+<OPTION VALUE="36">Portugal
+<OPTION VALUE="37">HongKong
+<OPTION VALUE="38">Malaysia
+<OPTION VALUE="39">South Africa
+<OPTION VALUE="40">Myanmar
+<OPTION VALUE="41">Mexico
+<OPTION VALUE="42">Liechtenstein
+<OPTION VALUE="43">Russia
+<OPTION VALUE="44">Lebanon
+<OPTION VALUE="45">other country
+</SELECT>
+</td>
+<tr>
+
+<INPUT TYPE="hidden" NAME="event" VALUE="2">
+
+</table>
+MAX NUMBER OF DISPLAY/PAGE<INPUT TYPE="text" NAME="max" SIZE="4" VALUE="50">
+<br><br>
+<INPUT TYPE="submit" value="SUBMIT">
+<INPUT TYPE="reset" value="RESET">
+</FORM>
+
+<center>
+<hr>
+<br>
+
+<table width=460 border=0>
+<tr>
+<td align="center" width=50%>
+<a href="home.html"><img src="../jpg1/back.jpg" border=0></a>
+</td>
+<td align="center" width=50%>
+<a href="../home.html"><img src="../jpg1/home.jpg" border=0></a>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+

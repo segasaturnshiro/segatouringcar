@@ -1,0 +1,410 @@
+<META http-equiv="Content-Type" Content="text/html; charset=Shift_JIS">
+<html>
+<head>
+<title>TouringCar--Driver'sSalon</title>
+
+</head>
+
+
+
+<body bgcolor="#000000" text="#fdd400" link="#fdd400" vlink="#666666" alink="#ff0000">
+
+<center>
+<img src="../../jpg4/head.jpg" alt="driver">
+</center>
+<br><br>
+
+<center>
+<img src="../../jpg4/drivers-rank-title.jpg" alt="driver">
+</center>
+<br>
+
+<a href="searchE.html"><img src="../../jpg4/switch-english.jpg" alt="JP/ENG" border=0></a><br>
+<br>
+
+<center>
+<font size=+1>
+
+
+<b>順位を複数条件つきで検索できます。<br>
+検索時の希望条件を入力して下さい。<br>
+（すべてを入力する必要はありません。）
+</b>
+</font>
+
+</center>
+<hr>
+
+
+<FORM METHOD="POST" ACTION="/cgi-bin/t3-srch.pl">
+
+<table border=0 width=550>
+<tr>
+<th align=right nowrap>
+ドライバーズネーム　</th>
+<td colspan=2>
+<INPUT TYPE="text" NAME="name" SIZE="20" MAXLENGTH="20">　（最大半角で２０字まで）
+</td></tr>
+
+<tr>
+<th align=right>
+本　名　</th>
+<td colspan=2>
+<INPUT TYPE="text" NAME="realname" SIZE="20">
+</td>
+</tr>
+
+<tr>
+<th align=right>
+車　種　</th>
+<td colspan=2>
+<INPUT TYPE="radio" NAME="car" VALUE="Alfaromeo"  >アルファロメオ　
+<INPUT TYPE="radio" NAME="car" VALUE="Mercedes"  >メルセデス　
+<INPUT TYPE="radio" NAME="car" VALUE="Opel"  >オペル　
+<INPUT TYPE="radio" NAME="car" VALUE="Toyota">トヨタ　
+</td>
+</tr>
+
+<tr>
+<th align=right>
+ミッション　</th>
+<td colspan=2>
+<INPUT TYPE="radio" NAME="atmt" VALUE="AT">AT　
+<INPUT TYPE="radio" NAME="atmt" VALUE="MT">MT
+</td>
+</tr>
+
+<tr>
+<th align=right>
+性　別　</th>
+<td colspan=2>
+<INPUT TYPE="radio" NAME="sex" VALUE="male"  >男　
+<INPUT TYPE="radio" NAME="sex" VALUE="female">女
+</td>
+</tr>
+
+<tr>
+<th align=right>
+年　代　</th>
+<td colspan=2>
+<INPUT TYPE="radio" NAME="age" VALUE="0">～15　
+<INPUT TYPE="radio" NAME="age" VALUE="1">16～29　
+<INPUT TYPE="radio" NAME="age" VALUE="2">30～
+</td>
+</tr>
+
+<tr>
+<th align=right valign=top rowspan=9>
+店　舗　<br>
+<p align=left>
+(どこか一つだけ<br>
+選んで下さい)<BR>
+<br>
+<font size=-1>
+HS<br>
+　…ハイテクセガ<br><br>
+HLS<br>
+　…ハイテクランドセガ<br><br>
+SW<br>
+　…セガワールド<br><br>
+SL<br>
+　…スポーツランド</font>
+</p>
+</th>
+</td>
+<th align=right>
+東京地区　</td>
+<td>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="新宿ジョイポリス">新宿ジョイポリス
+<OPTION value="東京ジョイポリス">東京ジョイポリス　　　　　　
+<OPTION value="池袋ＧＩＧＯ">池袋ＧＩＧＯ
+<OPTION value="上野パセラ">上野パセラ
+<OPTION value="SW青井">SW青井
+<OPTION value="SW鹿浜">SW鹿浜
+<OPTION value="SW成増">SW成増
+<OPTION value="新宿SL中央口">新宿SL中央口
+<OPTION value="新宿SL西口">新宿SL西口
+<OPTION value="新宿SL本館">新宿SL本館
+<OPTION value="ネオシス">ネオシス
+<OPTION value="ジオス">ジオス
+<OPTION value="HS渋谷">HS渋谷
+<OPTION value="HLS渋谷">HLS渋谷
+<OPTION value="HSプライム">HSプライム
+<OPTION value="六本木ＧＩＧＯ">六本木ＧＩＧＯ
+<OPTION value="HLS秋葉原">HLS秋葉原
+<OPTION value="HS神田">HS神田
+<OPTION value="SWアルカス">SWアルカス
+<OPTION value="SWパルテノス">SWパルテノス
+<OPTION value="SW八王子">SW八王子
+<!--
+<OPTION value="その他">その他
+-->
+</SELECT>
+</td></tr>
+
+<tr>
+<th align=right>
+北海道地区　</th>
+<td>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="HSススキノ">HSススキノ
+<OPTION value="SW旭川">SW旭川
+<OPTION value="SW音更">SW音更　　　　　　　　　　　
+<OPTION value="SW昭和">SW昭和
+</select>
+</td>
+</tr>
+
+<tr>
+<th align=right>
+東北地区　</th>
+<td>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="SW青森">SW青森
+<OPTION value="SW秋田">SW秋田　　　　　　　　　　　
+<OPTION value="SW一関">SW一関
+<OPTION value="SWセッツウイングス">SWセッツウイングス
+<OPTION value="バレン">セガワールド　バレン
+<OPTION value="オリエントパークSW">オリエントパークSW
+</SELECT>
+</td>
+</tr>
+
+<tr>
+<th align=right>
+関東地区　</th>
+<td>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="横浜ジョイポリス">横浜ジョイポリス
+<OPTION value="市川ガルボ">市川ガルボ
+<OPTION value="HLSエピカ">HLSエピカ
+<OPTION value="HS北久里浜">HS北久里浜
+<OPTION value="HLSブラボー">HLSブラボー
+<OPTION value="HS戸塚">HS戸塚
+<OPTION value="SW大船">SW大船　　　　　　　　　　　
+<OPTION value="アイアイセガ茨大">アイアイセガ茨大
+<OPTION value="SW下館">SW下館
+<OPTION value="SW小山">SW小山
+<OPTION value="SW太田">SW太田
+<OPTION value="SW前橋">SW前橋
+<OPTION value="オーツーパークSW">オーツーパークSW
+<OPTION value="HS千葉">HS千葉
+<OPTION value="HS柏">HS柏
+<OPTION value="SWグリーンシティ">SWグリーンシティ
+<OPTION value="SW川口">SW川口
+<OPTION value="SW狭山">SW狭山
+</SELECT>
+</td>
+</tr>
+
+<tr>
+<th align=right>
+上越・信越地区　</th>
+<td>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="SWエデン">SWエデン
+<OPTION value="SW上越">SW上越
+<OPTION value="SW新発田">SW新発田
+<OPTION value="SW武生">SW武生
+<OPTION value="SW豊田">SW豊田　　　　　　　　　　　
+</SELECT>
+</td>
+</tr>
+
+<tr>
+<th nowrap align=right>
+中部・東海地区　</th>
+<td>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="HLSアキューズ">HLSアキューズ
+<OPTION value="セガチャーリーワン">セガチャーリーワン
+<OPTION value="SW静岡">SW静岡
+<OPTION value="HS金山">HS金山
+<OPTION value="セガ・デポルテ">セガ・デポルテ
+<OPTION value="岐阜ＧＩＧＯ">岐阜ＧＩＧＯ
+<OPTION value="SWマルクス東名">SWマルクス東名　　　　　　　
+<OPTION value="SW知立">SW知立
+<OPTION value="SWホリデースクエア">SWホリデースクエア
+<OPTION value="四日市ガルボ">四日市ガルボ
+<OPTION value="SW夏見">SW夏見
+</SELECT>
+</td>
+</tr>
+
+<tr>
+<th align=right>
+関西地区　</th>
+<td>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="大阪ガルボ">大阪ガルボ
+<OPTION value="長浜SWワンダーランド">長浜ワンダーランド
+<OPTION value="SW高槻">SW高槻
+<OPTION value="SWファンタジーワールド">SWファンタジーワールド
+<OPTION value="アミューズメントデプト">アミューズメントデプト　　　
+<OPTION value="SW布施">SW布施
+<OPTION value="HLSアミューズメントシアター">HLSアミューズメントシアター
+<OPTION value="SW今福">SW今福
+<OPTION value="SW枚方">SW枚方
+<OPTION value="心斎橋ＧＩＧＯ">心斎橋ＧＩＧＯ
+<OPTION value="SW新三国">SW新三国
+<OPTION value="SWりんくう">SWりんくう
+<OPTION value="ワンダースクエア">ワンダースクエア
+<OPTION value="シネセット">シネセット
+<OPTION value="岸和田アミュージアム">岸和田アミュージアム
+<OPTION value="SWつかしん">SWつかしん
+<OPTION value="セガ神戸かもめ館">セガ神戸かもめ館
+<OPTION value="ドライブイン長沢">ドライブイン長沢
+<OPTION value="SW加古川">SW加古川
+</SELECT>
+</td>
+</tr>
+
+<tr>
+<th align=right>
+中国地区　</th>
+<td>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="SW倉敷">SW倉敷
+<OPTION value="広島ＧＩＧＯ">広島ＧＩＧＯ
+<OPTION value="SWアルパーク">SWアルパーク　　　　　　　　
+<OPTION value="HLSキスケボール">HLSキスケボール
+<OPTION value="SW南国">SW南国
+<OPTION value="SW高松">SW高松
+<OPTION value="SWゆめタウン長府">SWゆめタウン長府
+<OPTION value="周南アミュージアム">周南アミュージアム
+<OPTION value="SW鳥取">SW鳥取
+</SELECT>
+</td>
+</tr>
+
+
+<tr>
+<th align=right>
+九州地区　</th>
+<td>
+<SELECT NAME="location">
+<OPTION SELECTED value="nul">　
+<OPTION value="福岡ジョイポリス">福岡ジョイポリス
+<OPTION value="天神ＧＩＧＯ">天神ＧＩＧＯ
+<OPTION value="SWパピヨンプラザ">SWパピヨンプラザ
+<OPTION value="SW博多">SW博多
+<OPTION value="SW飯塚">SW飯塚　　　　　　　　　　　
+<OPTION value="SW時津">SW時津
+<OPTION value="SWカデナ">SWカデナ
+<OPTION value="SW有明プラザ">SW有明プラザ
+<OPTION value="SWくまなん">SWくまなん
+<OPTION value="SWアルファーシティ">SWアルファーシティ
+<OPTION value="SWパラダイスガーデン">SWパラダイスガーデン
+<OPTION value="HS橋通り">HS橋通り
+<OPTION value="SW与次郎ヶ浜">SW与次郎ヶ浜
+</SELECT>
+</td>
+</tr>
+
+<tr>
+<th align=right>
+その他の店舗　</th>
+<td>
+<INPUT TYPE="text" NAME="location" size=30 maxlength=30>
+</td>
+</tr>
+
+<tr>
+<td colspan=2><br>
+</td>
+</tr>
+
+<tr>
+<th align=right>
+国　籍　</th>
+<td colspan=2>
+<SELECT NAME="nation">
+<OPTION SELECTED value="nul">　
+<OPTION VALUE="jpn">日本
+<OPTION VALUE="usa">アメリカ
+<OPTION VALUE="arg">アルゼンチン
+<OPTION VALUE="are">アラブ首長国連邦
+<OPTION VALUE="gbr">イギリス
+<OPTION VALUE="isr">イスラエル
+<OPTION VALUE="ita">イタリア
+<OPTION VALUE="idn">インドネシア
+<OPTION VALUE="ind">インド
+<OPTION VALUE="aut">オーストリア
+<OPTION VALUE="nld">オランダ
+<OPTION VALUE="aus">オーストラリア
+<OPTION VALUE="can">カナダ
+<OPTION VALUE="kor">韓国
+<OPTION VALUE="grc">ギリシャ
+<OPTION VALUE="sau">サウジアラビア
+<OPTION VALUE="sgp">シンガポール
+<OPTION VALUE="che">スイス
+<OPTION VALUE="swe">スウェーデン
+<OPTION VALUE="esp">スペイン
+<OPTION VALUE="svn">スロベニア
+<OPTION VALUE="tha">タイ
+<OPTION VALUE="twn">台湾
+<OPTION VALUE="chn">中国
+<OPTION VALUE="dnk">デンマーク
+<OPTION VALUE="deu">ドイツ
+<OPTION VALUE="tur">トルコ
+<OPTION VALUE="nzl">ニュージーランド
+<OPTION VALUE="nor">ノルウェイ
+<OPTION VALUE="hun">ハンガリー
+<OPTION VALUE="phl">フィリピン
+<OPTION VALUE="fin">フィンランド
+<OPTION VALUE="bra">ブラジル
+<OPTION VALUE="fra">フランス
+<OPTION VALUE="bel">ベルギー
+<OPTION VALUE="pol">ポーランド
+<OPTION VALUE="prt">ポルトガル
+<OPTION VALUE="hkg">香港
+<OPTION VALUE="mys">マレーシア
+<OPTION VALUE="zaf">南アフリカ
+<OPTION VALUE="mmr">ミャンマー
+<OPTION VALUE="mex">メキシコ
+<OPTION VALUE="lie">リヒテンシュタイン
+<OPTION VALUE="rus">ロシア
+<OPTION VALUE="lbn">レバノン
+<OPTION VALUE="oth">その他
+</SELECT>
+</td>
+<tr>
+</table>
+<p>
+
+<center>
+<INPUT TYPE="image" src="../../jpg4/drivers-search.jpg" border=0>
+<A HREF="/stc/ranking/arcade/search.html"><img src="../../jpg4/drivers-reset.jpg" border=0></a>
+</FORM>
+<br>
+<hr>
+
+<br>
+
+<table width=600 border=0>
+<tr>
+<td align="center" width=50%>
+<a href="../a-home.html"><img src="../../jpg1/back.jpg" border=0></a>
+</td>
+<td align="center" width=50%>
+<a href="../../home.html"><img src="../../jpg1/home.jpg" border=0></a>
+</td>
+</tr>
+</table>
+</center>
+
+<br><br>
+</body>
+</html>
+
+
+
