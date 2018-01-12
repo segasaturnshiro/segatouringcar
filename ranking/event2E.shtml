@@ -1,3 +1,4 @@
+<META http-equiv="Content-Type" Content="text/html; charset=Shift_JIS">
 <html>
 <head>
 <title>TouringCar--ranking--NET EVENT check ENG</title>
@@ -10,7 +11,7 @@ If you frequently check the ranking, Please bookmark this page.
 <font size=+1><b>We have closed the entry.<br>
 Thank you for participating in the competition!</b></font><br>
 <br>
-<font size=+2>Please set conditions for <b>OPTIONAL SEARCH！</b></font><br>
+<font size=+2>Please set conditions for <b>OPTIONAL SEARCHﾂ！</b></font><br>
 <FORM METHOD="POST" ACTION="/cgi-bin/sstcsrchE.cgi">
 
 <table border=0 width=500>
@@ -31,10 +32,10 @@ REGISTRATION NAME</th>
 <th align=right>
 CAR</th>
 <td colspan=2>
-<INPUT TYPE="radio" NAME="car" VALUE="0">ALFA ROMEO　
-<INPUT TYPE="radio" NAME="car" VALUE="1">MERCEDES　
-<INPUT TYPE="radio" NAME="car" VALUE="2">OPEL　
-<INPUT TYPE="radio" NAME="car" VALUE="3">TOYOTA　
+<INPUT TYPE="radio" NAME="car" VALUE="0">ALFA ROMEOﾂ　
+<INPUT TYPE="radio" NAME="car" VALUE="1">MERCEDESﾂ　
+<INPUT TYPE="radio" NAME="car" VALUE="2">OPELﾂ　
+<INPUT TYPE="radio" NAME="car" VALUE="3">TOYOTAﾂ　
 </td>
 </tr>
 
@@ -42,7 +43,7 @@ CAR</th>
 <th align=right>
 TRANSMISSION</th>
 <td colspan=2>
-<INPUT TYPE="radio" NAME="miss" VALUE="0">AT　
+<INPUT TYPE="radio" NAME="miss" VALUE="0">ATﾂ　
 <INPUT TYPE="radio" NAME="miss" VALUE="1">MT
 </td>
 </tr>
@@ -52,7 +53,7 @@ TRANSMISSION</th>
 NATIONALITY</th>
 <td colspan=2>
 <SELECT NAME="nation">
-<OPTION SELECTED value="">　
+<OPTION SELECTED value="">ﾂ　
 <OPTION VALUE="0">Japan
 <OPTION VALUE="1">U.S.A.
 <OPTION VALUE="2">Argentina
@@ -129,4 +130,3 @@ MAX NUMBER OF DISPLAY/PAGE<INPUT TYPE="text" NAME="max" SIZE="4" VALUE="50">
 </center>
 </body>
 </html>
-
