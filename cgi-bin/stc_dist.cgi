@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>TouringCar--archive--car.html</title>
+
+</head>
+
+<body bgcolor="#000000" text="#fdd400" link="#fdd400" vlink="#333333" alink="#ff0000">
+
+<center>
+<img src="../jpg4/head.jpg" alt="SEGA Touring Car Championship"><br><br>
+<img src="../jpg4/cars.jpg" alt="cars"><br><br>
+
+<table border=0 cellpadding="0" cellspacing="20">
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+<td colspan=2>
+<font size=+2>ALFA ROMEO 155V6TI</font>
+</td></tr>
+<td colspan=2>
+アルファロメオ　１５５V６TＩ
+</td></tr>
+<tr>
+<td>ENGINE TYPE</td>          <td>V6 24VALVES</td></tr>
+<td>CAPACITY</td>          <td>2499cc</td></tr>
+<td>MAX POWER</td>          <td>450bhp/11700rpm</td></tr>
+<td>MAX TORQUE</td>          <td>30.6kgm/9500rpm</td></tr>
+<td>TRANSMISSION</td>          <td>6-SPEED SEMI-AT 4WD</td></tr>
+<td>LENGTH</td>          <td>4620mm</td></tr>
+<td>WIDTH</td>          <td>1798mm</td></tr>
+<td>HEIGHT</td>          <td>1355mm</td></tr>
+<td>WHEELBASE</td>          <td>2540mm</td></tr>
+<td>WEIGHT</td>          <td>1040kg+</td></tr>
+<td>BRAKES</td>          <td>4-CHANNEL ABS</td></tr>
+<td> </td>                     <td>VENTILATED DISCS</td></tr>
+</table>
+</td>
+<td><img src="../jpg3/alfa.jpg" border=0><br><br><br>
+<a href="../archive/cars/alfa.html"><img src="../jpg5/car-more.jpg" border=0 align=center></a><br>
+</td></tr>
+</table>
+
+<table border=0 cellpadding="0" cellspacing="20">
+<td><img src="../jpg3/supra.jpg" border=0><br><br><br>
+<a href="../archive/cars/supra.html"><img src="../jpg5/car-more.jpg" border=0 align=center></a><br>
+</td>
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+<td colspan=2>
+<font size=+2>TOYOTA SUPRA GT</font>
+</td></tr>
+<td colspan=2>
+トヨタ　スープラGT
+</td></tr>
+<tr>
+<td>ENGINE TYPE</td>          <td>STRAIGHT4 DOHC TURBO</td></tr>
+<td>CAPACITY</td>          <td>1998cc</td></tr>
+<td>MAX POWER</td>          <td>450bhp/6000rpm</td></tr>
+<td>MAX TORQUE</td>          <td>65.0kgm/4500rpm</td></tr>
+<td>TRANSMISSION</td>          <td>6-SPEED MT FR</td></tr>
+<td>LENGTH</td>          <td>4520mm</td></tr>
+<td>WIDTH</td>          <td>1910mm</td></tr>
+<td>HEIGHT</td>          <td>1200mm</td></tr>
+<td>WHEELBASE</td>          <td>2550mm</td></tr>
+<td>WEIGHT</td>          <td>1100kg+</td></tr>
+<td>BRAKES</td>          <td>VENTILATED DISCS</td></tr>
+</table>
+</td></tr>
+</table>
+
+<table border=0 cellpadding="0" cellspacing="20">
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+<td colspan=2>
+<font size=+2>AMG MERCEDES C-CLASS</font>
+</td></tr>
+<td colspan=2>
+ＡＭＧメルセデス　Ｃクラス
+</td></tr>
+<tr>
+<td>ENGINE TYPE</td>          <td>V6 24VALVES</td></tr>
+<td>CAPACITY</td>          <td>2499cc</td></tr>
+<td>MAX POWER</td>          <td>500bhp/11500rpm</td></tr>
+<td>MAX TORQUE</td>          <td>30.6kgm/9000rpm</td></tr>
+<td>TRANSMISSION</td>          <td>6-SPEED SEMI-AT RWD</td></tr>
+<td>LENGTH</td>          <td>4666mm</td></tr>
+<td>WIDTH</td>          <td>1789mm</td></tr>
+<td>HEIGHT</td>          <td>1280mm</td></tr>
+<td>WHEELBASE</td>          <td>2690mm</td></tr>
+<td>WEIGHT</td>          <td>1040kg+</td></tr>
+<td>BRAKES</td>          <td>4-CHANNEL ABS</td></tr>
+<td> </td>                     <td>VENTILATED DISCS</td></tr>
+</table>
+</td>
+<td><img src="../jpg3/amg.jpg" border=0><br><br><br>
+<a href="../archive/cars/benz.html"><img src="../jpg5/car-more.jpg" border=0 align=center></a><br>
+</td></tr>
+</table>
+
+<table border=0 cellpadding="0" cellspacing="20">
+<td><img src="../jpg3/opel.jpg" border=0><br><br><br>
+<a href="../archive/cars/opel.html"><img src="../jpg5/car-more.jpg" border=0 align=center></a><br>
+</td>
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+<td colspan=2>
+<font size=+2>OPEL CALIBRA V6</font>
+</td></tr>
+<td colspan=2>
+オペル　カリブラＶ６
+</td></tr>
+<tr>
+<td>ENGINE TYPE</td>          <td>V6 24VALVES</td></tr>
+<td>CAPACITY</td>          <td>2498cc</td></tr>
+<td>MAX POWER</td>          <td>500bhp/11650rpm</td></tr>
+<td>MAX TORQUE</td>          <td>31.6kgm/9000rpm</td></tr>
+<td>TRANSMISSION</td>          <td>6-SPEED SEMI-AT 4WD</td></tr>
+<td>LENGTH</td>          <td>4673mm</td></tr>
+<td>WIDTH</td>          <td>1766mm</td></tr>
+<td>HEIGHT</td>          <td>1285mm</td></tr>
+<td>WHEELBASE</td>          <td>2605mm</td></tr>
+<td>WEIGHT</td>          <td>1040kg+</td></tr>
+<td>BRAKES</td>          <td>4-CHANNEL ABS</td></tr>
+<td> </td>          <td>VENTILATED DISCS</td></tr>
+</table>
+</td></tr>
+</table>
+
+
+<br>
+<hr>
+<br>
+
+<table width=460 border=0>
+<tr>
+<td align="center" width=50%>
+<a href="../archive/home.html"><img src="../jpg1/back.jpg" border=0></a>
+</td>
+<td align="center" width=50%>
+<a href="../home.html"><img src="../jpg1/home.jpg" border=0></a>
+</td>
+</tr>
+</table>
+
+</center>
+
+
+<br><br>
+</body>
+</html>
+
+
+
+
